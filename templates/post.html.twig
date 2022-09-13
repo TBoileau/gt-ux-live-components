@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {{ component('post_form') }}
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                {{ component('post_list') }}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+

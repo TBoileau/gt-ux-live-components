@@ -1,0 +1,5 @@
+<ul {{ attributes }} data-poll>
+    {% for post in this.posts %}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+</ul>
